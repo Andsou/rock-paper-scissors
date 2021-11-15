@@ -13,7 +13,6 @@ function computerPlay() {
 
     return random;
 }
-console.log(computerPlay())
 
 function playRound(playerSelection, computerSelection) {
 
@@ -95,8 +94,6 @@ function game() {
             playerScore += 0;
             computerScore += 0;
         }
-
-        console.log (playerScore)
     }
 
     if (playerScore > computerScore) {
