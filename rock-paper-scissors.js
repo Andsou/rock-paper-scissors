@@ -108,7 +108,6 @@ function game() {
     else {
         alert("Draw")
     }
-
 }
 
 game();
