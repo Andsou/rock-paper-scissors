@@ -1,4 +1,57 @@
-body
-{
+body {
     background-color: #272727;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+#start {
+    color: aliceblue;
+    text-align: center;
+}
+
+#rock-paper-scissors {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#score-card {
+    display: flex;
+    gap: 20px;
+    color: aliceblue;
+    font-size: 2em;
+    justify-content: center;
+}
+
+b {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+p {
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+button {
+    background-color: #4e4caf; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 16px;
+ 
+}
+
+input {
+    border: none;
 }
